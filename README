@@ -4,7 +4,14 @@ youtube-download-url
 Provides the Download URL for downloading youtube videos directly 
 
 
-Installation: 
+How it works:
+=============
+
+Open and Erlang shell, compile and run 
+Copy the URL and paste it your browser to download the video 
+
 
 ERL$> c(youtube).
+{ok,youtube}
 ERL$> youtube:download("http://www.youtube.com/watch?v=6QzfDABqVs4").
+URL : "http://r1---sn-ci5gup-qxae.googlevideo.com/videoplayback?ms=au&source=youtube&mv=m&gir=yes&key=yt5&itag=18&ip=122.176.152.203&clen=10256545&lmt=1394306732927446&ipbits=0&sparams=clen%2Cdur%2Cgir%2Cid%2Cip%2Cipbits%2Citag%2Clmt%2Csource%2Cupn%2Cexpire&fexp=924613%2C932241%2C916626%2C933606%2C937417%2C913434%2C936910%2C936913%2C902907%2C934022&id=e90cdf0c006a56ce&dur=151.672&mt=1394465998&sver=3&signature=C6A5894054F42869BC84927B718A0045BAF4D29B.4659CDD01411ECA1030A5932B173C0B92C56D3C8&expire=1394489416&upn=8-KxRkR8uB&title=mymovie"
