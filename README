@@ -1,0 +1,10 @@
+youtube-download-url
+====================
+
+Provides the Download URL for downloading youtube videos directly 
+
+
+Installation: 
+
+ERL$> c(youtube).
+ERL$> youtube:download("http://www.youtube.com/watch?v=6QzfDABqVs4").
